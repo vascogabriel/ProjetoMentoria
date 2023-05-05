@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main ()
+{
+
+float area, perimetro, base, altura;
+printf ("Calculo da area e perimetro de um retangulo\n");
+printf("Digite o tamanho em CM da base:\n");
+scanf("%f", &base);
+printf("Digite o tamanho em CM da altura:\n");
+scanf("%f", &altura);
+area=base*altura;
+perimetro= (base*2)+(altura*2);
+printf("Area calculada: %.2f cm\n", area);
+printf("Perimetro: %.2f cm", perimetro);
+return 0;
+}
